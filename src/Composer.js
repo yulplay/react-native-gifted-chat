@@ -28,6 +28,7 @@ export default class Composer extends React.Component {
         placeholderTextColor={this.props.placeholderTextColor}
         multiline={this.props.multiline}
 
+	//https://github.com/yulplay/doodgame-client/issues/1862
         onContentSizeChange={(e) => this.onChange(e)}
         onChangeText={text => this.onChangeText(text)}
 
